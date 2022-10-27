@@ -1,0 +1,118 @@
+/* Title bar - Text */
+
+.wordmark-2u86JB > svg {
+    visibility: hidden;
+}
+
+.wordmark-2u86JB::before {
+    position: absolute;
+    content: "";
+    background: url(https://kazo.cf/media/7cord.png) no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+/* Title bar - Normal */
+
+.winButton-3UMjdg {
+    width: 27px;
+    height: 18px;
+    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white;
+    border: 1px solid #222222;
+    border-top: 0;
+    margin-top: -1px;
+}
+
+.winButton-3UMjdg > svg {
+    visibility: hidden;
+}
+
+.winButtonMinMax-3RsPUg {
+    background-image: linear-gradient(#b5b5b5, #8b8b8b 50%, #505050 50%, #686a71);
+}
+
+.winButtonMinMax-3RsPUg[aria-label="Minimize"] {
+    border-radius: 0px 0px 0px 4px;
+    clip-path: inset(0px 0px -1px -1px);
+}
+.winButtonMinMax-3RsPUg[aria-label="Maximize"] {
+    width: 26px;
+    margin-left: -1px;
+    margin-right: -1px;
+    clip-path: inset(0px 1px -1px 1px);
+}
+.winButtonClose-3Q8ZH5 {
+    width: 46px;
+    border: 1px solid #562a22;
+    border-top: 0;
+    background-image: linear-gradient(#e19e93, #ce6c5c 50%, #bc341c 50%, #c66e52);
+    margin-right: 3px;
+    border-radius: 0px 0px 4px 0px;
+    clip-path: inset(0px -1px -1px 0px);
+}
+
+.winButtonClose-3Q8ZH5::after {
+    position: absolute;
+    content: "";
+    background: url(https://kazo.cf/media/win7x.png) no-repeat center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]::after {
+    position: absolute;
+    content: "";
+    background: url(https://kazo.cf/media/win7max.png) no-repeat center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.winButtonMinMax-3RsPUg[aria-label="Minimize"]::after {
+    position: absolute;
+    content: "";
+    background: url(https://kazo.cf/media/win7min.png) no-repeat center;
+    height: 100%;
+    width: 100%;
+    margin-top: 5px
+}
+
+/* Title bar - Hover */
+
+.winButtonClose-3Q8ZH5:hover {
+    background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f);
+    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white, 0px 0px 5px 2px #d5290a;
+    z-index: 1;
+}
+
+.winButtonMinMax-3RsPUg:hover {
+    background-image: linear-gradient(#b4d6ec, #8cbeda 50%, #3583b6 50%, #2ed7e4);
+    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white, 0px 0px 5px 2px #3583b6;
+    z-index: 1;
+}
+
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]:hover {
+    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white, 0px 0px 5px 2px #3583b6;
+    z-index: 1;
+}
+
+.winButton-3UMjdg:hover {
+    clip-path: none;
+}
+
+/* Title bar - Pressed */
+
+.winButtonClose-3Q8ZH5:active {
+    background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20);
+    box-shadow: 0px 0px 2px white, inset 0px 0px 2px white, 0px 0px 10px 2px #d5290a;
+    z-index: 1;
+}
+
+.winButtonMinMax-3RsPUg:active {
+    background-image: linear-gradient(#a2bbcd, #58a5b4 50%, #147485 50%, #16d6c5);
+    box-shadow: 0px 0px 2px white, inset 0px 0px 2px white, 0px 0px 10px 3px #147485;
+    z-index: 1;
+}
