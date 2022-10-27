@@ -19,7 +19,7 @@
 .winButton-3UMjdg {
     width: 27px;
     height: 18px;
-    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white;
+    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004;
     border: 1px solid #222222;
     border-top: 0;
     margin-top: -1px;
@@ -59,7 +59,6 @@
     background: url(https://kazo.cf/media/win7x.png) no-repeat center;
     height: 100%;
     width: 100%;
-    margin-top: 0px;
 }
 
 .winButtonMinMax-3RsPUg[aria-label="Maximize"]::after {
@@ -68,7 +67,6 @@
     background: url(https://kazo.cf/media/win7max.png) no-repeat center;
     height: 100%;
     width: 100%;
-    margin-top: 0px;
 }
 
 .winButtonMinMax-3RsPUg[aria-label="Minimize"]::after {
@@ -84,19 +82,18 @@
 
 .winButtonClose-3Q8ZH5:hover {
     background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f);
-    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white, 0px 0px 5px 2px #d5290a;
+    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a;
     z-index: 1;
 }
 
 .winButtonMinMax-3RsPUg:hover {
     background-image: linear-gradient(#b4d6ec, #8cbeda 50%, #3583b6 50%, #2ed7e4);
-    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white, 0px 0px 5px 2px #3583b6;
+    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6;
     z-index: 1;
 }
 
 .winButtonMinMax-3RsPUg[aria-label="Maximize"]:hover {
-    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, inset 0px 0px 100px -100px white, 0px 0px 5px 2px #3583b6;
-    z-index: 1;
+    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6;
 }
 
 .winButton-3UMjdg:hover {
@@ -107,12 +104,16 @@
 
 .winButtonClose-3Q8ZH5:active {
     background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20);
-    box-shadow: 0px 0px 2px white, inset 0px 0px 2px white, 0px 0px 10px 2px #d5290a;
+    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a;
     z-index: 1;
 }
 
 .winButtonMinMax-3RsPUg:active {
     background-image: linear-gradient(#a2bbcd, #58a5b4 50%, #147485 50%, #16d6c5);
-    box-shadow: 0px 0px 2px white, inset 0px 0px 2px white, 0px 0px 10px 3px #147485;
-    z-index: 1;
+    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485;
+    z-index: 1;  
+}
+
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]:active {
+    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485;
 }
