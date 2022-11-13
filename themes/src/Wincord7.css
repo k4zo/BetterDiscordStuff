@@ -19,7 +19,7 @@
 .winButton-3UMjdg {
     width: 27px;
     height: 18px;
-    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004;
+    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray;
     border: 1px solid #222222;
     border-top: 0;
     margin-top: -1px;
@@ -30,7 +30,7 @@
 }
 
 .winButtonMinMax-3RsPUg {
-    background-image: linear-gradient(#b5b5b5, #8b8b8b 50%, #505050 50%, #686a71);
+    background-image: linear-gradient(90deg, #0003, #0000 25%, #0000 75%, #0003), linear-gradient(#babcbd, #808384 50%, #505455 50%, #5e626e);
 }
 
 .winButtonMinMax-3RsPUg[aria-label="Minimize"] {
@@ -47,7 +47,7 @@
     width: 46px;
     border: 1px solid #562a22;
     border-top: 0;
-    background-image: linear-gradient(#e19e93, #ce6c5c 50%, #bc341c 50%, #c66e52);
+    background-image: linear-gradient(90deg, #0003, #0000 30%, #0000 70%, #0003), linear-gradient(#e2a69a, #cc695a 50%, #ba3019 50%, #de8869);
     margin-right: 3px;
     border-radius: 0px 0px 4px 0px;
     clip-path: inset(0px -1px -1px 0px);
