@@ -19,10 +19,10 @@
 .winButton-3UMjdg {
     width: 27px;
     height: 18px;
-    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray;
-    border: 1px solid #222222;
+    box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray !important;
+    border: 1px solid #222222 !important;
     border-top: 0;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 .winButton-3UMjdg > svg {
@@ -45,11 +45,11 @@
 }
 .winButtonClose-3Q8ZH5 {
     width: 46px;
-    border: 1px solid #562a22;
+    border: 1px solid #562a22 !important;
     border-top: 0;
     background-image: linear-gradient(90deg, #0003, #0000 30%, #0000 70%, #0003), linear-gradient(#e2a69a, #cc695a 50%, #ba3019 50%, #de8869);
     margin-right: 3px;
-    border-radius: 0px 0px 4px 0px;
+    border-radius: 0px 0px 4px 0px !important;
     clip-path: inset(0px -1px -1px 0px);
 }
 
@@ -81,19 +81,20 @@
 /* Title bar - Hover */
 
 .winButtonClose-3Q8ZH5:hover {
-    background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f);
-    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a;
+    background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f) !important;
+    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a !important;
+    border: 1px solid #562a22 !important;
     z-index: 1;
 }
 
 .winButtonMinMax-3RsPUg:hover {
-    background-image: linear-gradient(#b4d6ec, #8cbeda 50%, #3583b6 50%, #2ed7e4);
-    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6;
+    background-image: linear-gradient(#b4d6ec, #8cbeda 50%, #3583b6 50%, #2ed7e4) !important;
+    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6 !important;
     z-index: 1;
 }
 
 .winButtonMinMax-3RsPUg[aria-label="Maximize"]:hover {
-    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6;
+    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6 !important;
 }
 
 .winButton-3UMjdg:hover {
