@@ -7,7 +7,7 @@
 .wordmark-2u86JB::before {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/media/7cord.png) no-repeat;
+    background: url(https://kazo.cf/static/7cord.png) no-repeat;
     height: 100%;
     width: 100%;
     margin-top: -1px;
@@ -56,7 +56,7 @@
 .winButtonClose-3Q8ZH5::after {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/media/win7x.png) no-repeat center;
+    background: url(https://kazo.cf/static/win7x.png) no-repeat center;
     height: 100%;
     width: 100%;
 }
@@ -64,7 +64,7 @@
 .winButtonMinMax-3RsPUg[aria-label="Maximize"]::after {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/media/win7max.png) no-repeat center;
+    background: url(https://kazo.cf/static/win7max.png) no-repeat center;
     height: 100%;
     width: 100%;
 }
@@ -72,7 +72,7 @@
 .winButtonMinMax-3RsPUg[aria-label="Minimize"]::after {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/media/win7min.png) no-repeat center;
+    background: url(https://kazo.cf/static/win7min.png) no-repeat center;
     height: 100%;
     width: 100%;
     margin-top: 5px
