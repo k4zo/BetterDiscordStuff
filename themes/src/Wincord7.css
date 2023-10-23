@@ -1,10 +1,10 @@
 /* Title bar - Text */
 
-.wordmark-2u86JB > svg {
+.wordmark-3wYFg6 > svg {
     visibility: hidden;
 }
 
-.wordmark-2u86JB::before {
+.wordmark-3wYFg6::before {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/7cord.png) no-repeat;
@@ -16,7 +16,7 @@
 
 /* Title bar - Normal */
 
-.winButton-3UMjdg {
+.winButton-3SigSb {
     width: 27px;
     height: 18px;
     box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray !important;
@@ -25,25 +25,25 @@
     margin-top: -2px;
 }
 
-.winButton-3UMjdg > svg {
+.winButton-3SigSb > svg {
     visibility: hidden;
 }
 
-.winButtonMinMax-3RsPUg {
+.winButtonMinMax-nT2Irc {
     background-image: linear-gradient(90deg, #0003, #0000 25%, #0000 75%, #0003), linear-gradient(#babcbd, #808384 50%, #505455 50%, #5e626e);
 }
 
-.winButtonMinMax-3RsPUg[aria-label="Minimize"] {
+.winButtonMinMax-nT2Irc[aria-label="Minimize"] {
     border-radius: 0px 0px 0px 4px;
     clip-path: inset(0px 0px -1px -1px);
 }
-.winButtonMinMax-3RsPUg[aria-label="Maximize"] {
+.winButtonMinMax-nT2Irc[aria-label="Maximize"] {
     width: 26px;
     margin-left: -1px;
     margin-right: -1px;
     clip-path: inset(0px 1px -1px 1px);
 }
-.winButtonClose-3Q8ZH5 {
+.winButtonClose-23zAIt {
     width: 46px;
     border: 1px solid #562a22 !important;
     border-top: 0;
@@ -53,7 +53,7 @@
     clip-path: inset(0px -1px -1px 0px);
 }
 
-.winButtonClose-3Q8ZH5::after {
+.winButtonClose-23zAIt::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7x.png) no-repeat center;
@@ -61,7 +61,7 @@
     width: 100%;
 }
 
-.winButtonMinMax-3RsPUg[aria-label="Maximize"]::after {
+.winButtonMinMax-nT2Irc[aria-label="Maximize"]::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7max.png) no-repeat center;
@@ -69,7 +69,7 @@
     width: 100%;
 }
 
-.winButtonMinMax-3RsPUg[aria-label="Minimize"]::after {
+.winButtonMinMax-nT2Irc[aria-label="Minimize"]::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7min.png) no-repeat center;
@@ -80,41 +80,41 @@
 
 /* Title bar - Hover */
 
-.winButtonClose-3Q8ZH5:hover {
+.winButtonClose-23zAIt:hover {
     background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f) !important;
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a !important;
     border: 1px solid #562a22 !important;
     z-index: 1;
 }
 
-.winButtonMinMax-3RsPUg:hover {
+.winButtonMinMax-nT2Irc:hover {
     background-image: linear-gradient(#b4d6ec, #8cbeda 50%, #3583b6 50%, #2ed7e4) !important;
     box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6 !important;
     z-index: 1;
 }
 
-.winButtonMinMax-3RsPUg[aria-label="Maximize"]:hover {
+.winButtonMinMax-nT2Irc[aria-label="Maximize"]:hover {
     box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6 !important;
 }
 
-.winButton-3UMjdg:hover {
+.winButton-3SigSb:hover {
     clip-path: none;
 }
 
 /* Title bar - Pressed */
 
-.winButtonClose-3Q8ZH5:active {
+.winButtonClose-23zAIt:active {
     background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20);
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a;
     z-index: 1;
 }
 
-.winButtonMinMax-3RsPUg:active {
+.winButtonMinMax-nT2Irc:active {
     background-image: linear-gradient(#a2bbcd, #58a5b4 50%, #147485 50%, #16d6c5);
     box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485;
     z-index: 1;  
 }
 
-.winButtonMinMax-3RsPUg[aria-label="Maximize"]:active {
+.winButtonMinMax-nT2Irc[aria-label="Maximize"]:active {
     box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485;
 }
