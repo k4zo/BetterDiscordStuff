@@ -1,10 +1,10 @@
 /* Title bar - Text */
 
-.wordmark__a934d8 > svg {
+.wordmark_a934d8 > svg {
     visibility: hidden;
 }
 
-.wordmark__a934d8::before {
+.wordmark_a934d8::before {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/7cord.png) no-repeat;
@@ -43,7 +43,7 @@
     margin-right: -1px;
     clip-path: inset(0px 1px -1px 1px);
 }
-.winButtonClose__a934d8 {
+.winButtonClose_a934d8 {
     width: 46px;
     border: 1px solid #562a22 !important;
     border-top: 0;
@@ -53,7 +53,7 @@
     clip-path: inset(0px -1px -1px 0px);
 }
 
-.winButtonClose__a934d8::after {
+.winButtonClose_a934d8::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7x.png) no-repeat center;
@@ -80,7 +80,7 @@
 
 /* Title bar - Hover */
 
-.winButtonClose__a934d8:hover {
+.winButtonClose_a934d8:hover {
     background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f) !important;
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a !important;
     border: 1px solid #562a22 !important;
@@ -103,7 +103,7 @@
 
 /* Title bar - Pressed */
 
-.winButtonClose__a934d8:active {
+.winButtonClose_a934d8:active {
     background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20);
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a;
     z-index: 1;
