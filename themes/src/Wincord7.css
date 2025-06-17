@@ -102,17 +102,17 @@
 /* Title bar - Pressed */
 
 .winButtonClose_c38106:active {
-    background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20);
-    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a;
+    background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20) !important;
+    box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a !important;
     z-index: 1;
 }
 
 .winButtonMinMax_c38106:active {
-    background-image: linear-gradient(#a2bbcd, #58a5b4 50%, #147485 50%, #16d6c5);
-    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485;
+    background-image: linear-gradient(#a2bbcd, #58a5b4 50%, #147485 50%, #16d6c5) !important;
+    box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485 !important;
     z-index: 1;  
 }
 
 .winButtonMinMax_c38106[aria-label="Maximize"]:active {
-    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485;
+    box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485 !important;
 }
