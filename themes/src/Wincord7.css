@@ -16,7 +16,7 @@
 
 /* Title bar - Normal */
 
-.winButton_c38106 {
+.c38106a3f0c3ca76-winButton {
     width: 27px;
     height: 18px;
     box-shadow: 0px 0px 2px 1px white, inset 0px 0px 0px 0.4px lightgray !important;
@@ -24,25 +24,25 @@
     transform: translateY(-6px);
 }
 
-.winButton_c38106 > svg {
+.c38106a3f0c3ca76-winButton > svg {
     visibility: hidden;
 }
 
-.winButtonMinMax_c38106 {
+.c38106a3f0c3ca76-winButtonMinMax {
     background-image: linear-gradient(90deg, #0003, #0000 25%, #0000 75%, #0003), linear-gradient(#babcbd, #808384 50%, #505455 50%, #5e626e);
 }
 
-.winButtonMinMax_c38106[aria-label="Minimize"] {
+.c38106a3f0c3ca76-winButtonMinMax[aria-label="Minimize"] {
     border-radius: 0px 0px 0px 4px;
     clip-path: inset(0px 0px -1px -1px);
 }
-.winButtonMinMax_c38106[aria-label="Maximize"] {
+.c38106a3f0c3ca76-winButtonMinMax[aria-label="Maximize"] {
     width: 26px;
     margin-left: -5px;
     margin-right: -5px;
     clip-path: inset(0px 1px -1px 1px);
 }
-.winButtonClose_c38106 {
+.c38106a3f0c3ca76-winButtonClose {
     width: 46px;
     border: 1px solid #562a22 !important;
     background-image: linear-gradient(90deg, #0003, #0000 30%, #0000 70%, #0003), linear-gradient(#e2a69a, #cc695a 50%, #ba3019 50%, #de8869);
@@ -51,7 +51,7 @@
     clip-path: inset(0px -1px -1px 0px);
 }
 
-.winButtonClose_c38106::after {
+.c38106a3f0c3ca76-winButtonClose::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7x.png) no-repeat center;
@@ -59,7 +59,7 @@
     width: 100%;
 }
 
-.winButtonMinMax_c38106[aria-label="Maximize"]::after {
+.c38106a3f0c3ca76-winButtonMinMax[aria-label="Maximize"]::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7max.png) no-repeat center;
@@ -67,7 +67,7 @@
     width: 100%;
 }
 
-.winButtonMinMax_c38106[aria-label="Minimize"]::after {
+.c38106a3f0c3ca76-winButtonMinMax[aria-label="Minimize"]::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7min.png) no-repeat center;
@@ -78,41 +78,42 @@
 
 /* Title bar - Hover */
 
-.winButtonClose_c38106:hover {
+.c38106a3f0c3ca76-winButtonClose:hover {
     background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f) !important;
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a !important;
     border: 1px solid #562a22 !important;
     z-index: 1;
 }
 
-.winButtonMinMax_c38106:hover {
+.c38106a3f0c3ca76-winButtonMinMax:hover {
     background-image: linear-gradient(#b4d6ec, #8cbeda 50%, #3583b6 50%, #2ed7e4) !important;
     box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6 !important;
     z-index: 1;
 }
 
-.winButtonMinMax_c38106[aria-label="Maximize"]:hover {
+.c38106a3f0c3ca76-winButtonMinMax[aria-label="Maximize"]:hover {
     box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px .4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #3583b6 !important;
 }
 
-.winButton_c38106:hover {
+.c38106a3f0c3ca76-winButton:hover {
     clip-path: none;
 }
 
 /* Title bar - Pressed */
 
-.winButtonClose_c38106:active {
+.c38106a3f0c3ca76-winButtonClose:active {
     background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20) !important;
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a !important;
     z-index: 1;
 }
 
-.winButtonMinMax_c38106:active {
+.c38106a3f0c3ca76-winButtonMinMax:active {
     background-image: linear-gradient(#a2bbcd, #58a5b4 50%, #147485 50%, #16d6c5) !important;
     box-shadow: -0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485 !important;
     z-index: 1;  
 }
 
-.winButtonMinMax_c38106[aria-label="Maximize"]:active {
+.c38106a3f0c3ca76-winButtonMinMax[aria-label="Maximize"]:active {
     box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485 !important;
 }
+
