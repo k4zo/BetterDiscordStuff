@@ -51,7 +51,7 @@
     clip-path: inset(0px -1px -1px 0px);
 }
 
-.winButtonClose_c38106 ::after {
+.winButtonClose_c38106::after {
     position: absolute;
     content: "";
     background: url(https://kazo.cf/static/win7x.png) no-repeat center;
@@ -78,7 +78,7 @@
 
 /* Title bar - Hover */
 
-.winButtonClose_c38106 :hover {
+.winButtonClose_c38106:hover {
     background-image: linear-gradient(#fb9d8b, #ee6d56 50%, #d5290a 50%, #e6942f) !important;
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 5px 2px #d5290a !important;
     border: 1px solid #562a22 !important;
@@ -101,7 +101,7 @@
 
 /* Title bar - Pressed */
 
-.winButtonClose_c38106 :active {
+.winButtonClose_c38106:active {
     background-image: linear-gradient(#d2aa93, #ba775d 50%, #8d2008 50%, #8f6c20) !important;
     box-shadow: 0.2px 0.2px 2px 0.5px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004,  0px 0px 10px 2px #d5290a !important;
     z-index: 1;
@@ -116,5 +116,6 @@
 .winButtonMinMax_c38106[aria-label="Maximize"]:active {
     box-shadow: 0px 0.2px 2px 0.3px white, inset 0px 0px 0px 0.4px lightgray, inset 0px 0px 6px #0004, 0px 0px 10px 3px #147485 !important;
 }
+
 
 
