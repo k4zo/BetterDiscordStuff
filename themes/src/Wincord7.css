@@ -54,7 +54,7 @@
 .winButtonClose_c38106::after {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/static/win7x.png) no-repeat center;
+    background: url(https://k4zo.github.io/BetterDiscordStuff/themes/src/win7x.png) no-repeat center;
     height: 100%;
     width: 100%;
 }
@@ -62,7 +62,7 @@
 .winButtonMinMax_c38106[aria-label="Maximize"]::after {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/static/win7max.png) no-repeat center;
+    background: url(https://k4zo.github.io/BetterDiscordStuff/themes/src/win7max.png) no-repeat center;
     height: 100%;
     width: 100%;
 }
@@ -70,7 +70,7 @@
 .winButtonMinMax_c38106[aria-label="Minimize"]::after {
     position: absolute;
     content: "";
-    background: url(https://kazo.cf/static/win7min.png) no-repeat center;
+    background: url(https://k4zo.github.io/BetterDiscordStuff/themes/src/win7min.png) no-repeat center;
     height: 100%;
     width: 100%;
     margin-top: 5px
